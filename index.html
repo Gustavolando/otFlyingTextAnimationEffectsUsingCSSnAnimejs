@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flying Text Animation Effects using CSS & Anime.js</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <section>
+    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, eveniet.
+      Mollitia dolor animi laboriosam nostrum ab. Voluptatum eum commodi enim.
+      Beatae officiis officia quis ea accusamus. Corporis, aut? Mollitia, vel!
+      Qui maxime sit doloribus asperiores ipsum animi excepturi necessitatibus reiciendis.
+      Facere quisquam nihil modi, reprehenderit et reiciendis iure odit dolore.
+      Ab optio voluptatum pariatur, cupiditate amet est. Labore, nemo sed.
+      Beatae consequuntur fugiat vero optio ratione, sed odio animi distinctio?
+      Fugiat accusantium inventore perspiciatis officiis rerum est non aspernatur amet.
+      Id delectus fuga ea deserunt dolore neque ex rerum recusandae.
+      Minima, expedita totam obcaecati quam dignissimos alias delectus molestiae sint.
+      Provident laudantium quam cumque eum molestias tenetur! Beatae, animi accusantium?
+      Cupiditate ratione nostrum aliquid dignissimos vel voluptatem labore nemo culpa!
+    </p>
+  </section>
+  <script src="./anime.min.js"></script>
+  <script>
+    // Now, Split text into letters
+    const text = document.querySelector('.text')
+    text.innerHTML = text.textContent.replace(/\S/g, "<span>$&</span>")
+
+    const animation = anime.timeline({
+      targets : '.text span',
+      easing : 'easeInOutExpo',
+      // loop : true,
+    })
+
+    animation
+      .add({
+        rotate : function() {
+          return anime.random(-360, 360)
+        },
+        translateX : function() {
+          return anime.random(-500, 500)
+        },
+        translateY : function() {
+          return anime.random(-500, 500)
+        },
+        opacity : 0,
+        duration : 0,
+        delay : anime.stagger(0),
+      })
+      
+      .add({
+        rotate : 0,
+        translateX : 0,
+        translateY : 0,
+        opacity : 1,
+        duration : 5000,
+        delay : anime.stagger(20),
+      })
+
+  </script>
+</body>
+</html>
