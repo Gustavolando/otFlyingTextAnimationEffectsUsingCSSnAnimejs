@@ -10,6 +10,18 @@ This was taken from the Online Tutorials [videos](https://www.youtube.com/watch?
 
 I hope you like it, code it and [watch it](https://gustavolando.github.io/otFlyingTextAnimationEffectsUsingCSSnAnimejs/)!
 
-![Flying Text Animation Effects using CSS & Anime.js](https://gustavolando.github.io/otFlyingTextAnimationEffectsUsingCSSnAnimejs/CSS%20Only%20Animated%20Background%20Effects.png)
+![Flying Text Animation Effects using CSS & Anime.js](https://gustavolando.github.io/otFlyingTextAnimationEffectsUsingCSSnAnimejs/Flying%20Text%20Animation%20Effects%20using%20CSS%20&%20Anime.js%201.png)
+
+![Flying Text Animation Effects using CSS & Anime.js](https://gustavolando.github.io/otFlyingTextAnimationEffectsUsingCSSnAnimejs/Flying%20Text%20Animation%20Effects%20using%20CSS%20&%20Anime.js%202.png)
+
+![Flying Text Animation Effects using CSS & Anime.js](https://gustavolando.github.io/otFlyingTextAnimationEffectsUsingCSSnAnimejs/Flying%20Text%20Animation%20Effects%20using%20CSS%20&%20Anime.js%203.png)
+
+![Flying Text Animation Effects using CSS & Anime.js](https://gustavolando.github.io/otFlyingTextAnimationEffectsUsingCSSnAnimejs/Flying%20Text%20Animation%20Effects%20using%20CSS%20&%20Anime.js%204.png)
+
+![Flying Text Animation Effects using CSS & Anime.js](https://gustavolando.github.io/otFlyingTextAnimationEffectsUsingCSSnAnimejs/Flying%20Text%20Animation%20Effects%20using%20CSS%20&%20Anime.js%205.png)
+
+![Flying Text Animation Effects using CSS & Anime.js](https://gustavolando.github.io/otFlyingTextAnimationEffectsUsingCSSnAnimejs/Flying%20Text%20Animation%20Effects%20using%20CSS%20&%20Anime.js%206.png)
+
+![Flying Text Animation Effects using CSS & Anime.js](https://gustavolando.github.io/otFlyingTextAnimationEffectsUsingCSSnAnimejs/Flying%20Text%20Animation%20Effects%20using%20CSS%20&%20Anime.js%207.png)
 
 Here is the demo link:  https://gustavolando.github.io/otFlyingTextAnimationEffectsUsingCSSnAnimejs/
